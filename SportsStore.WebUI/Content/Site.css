@@ -1,13 +1,13 @@
-﻿body {
+﻿/*body {
     padding-top: 50px;
     padding-bottom: 20px;
-}
+}*/
 
 /* Set padding to keep content from hitting the edges */
-.body-content {
+/*.body-content {
     padding-left: 15px;
     padding-right: 15px;
-}
+}*/
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -44,3 +44,13 @@ DIV.pager A { font-size: 1.1em; color: #666; text-decoration: none;
     padding: 0 .4em 0 .4em }
 DIV.pager A:hover { background-color: silver; }
 DIV.pager A.selected { background-color: #353535; color: white; }
+
+DIV#categories A
+{
+    font: bold 1.1em "Arial Narrow", "Franklin Gothic Medium", Arial; display: block;
+    text-decoration: none; padding: .6em; color: black;
+    border-bottom: 1px solid silver;
+}
+DIV#categories A.selected { background-color: #666; color: white; }
+DIV#categories A.hover { background-color: #CCC; }
+DIV#categories A.selected.hover { background-color: #666; }
